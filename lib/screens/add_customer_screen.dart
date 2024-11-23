@@ -69,7 +69,7 @@ class _AddCustomerScreenState extends State<AddCustomerScreen> {
 
                 const SizedBox(height: 20),
 
-                // Kaydet butonunu ortada ve büyük yapmak için
+                
                 Center(
                   child: ElevatedButton(
                     onPressed: () {
@@ -82,11 +82,11 @@ class _AddCustomerScreenState extends State<AddCustomerScreen> {
                           Colors.redAccent, // Butonun arka plan rengi
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(
-                            30), // Kenarları yuvarlatmak için
+                            30), 
                       ),
                       padding: EdgeInsets.symmetric(
                           vertical: 16, horizontal: 32), 
-                      elevation: 5, // Hafif gölge efekti
+                      elevation: 5, 
                       minimumSize: Size(200, 50), 
                     ),
                     child: Text(
