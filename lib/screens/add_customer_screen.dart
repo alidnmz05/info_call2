@@ -85,14 +85,14 @@ class _AddCustomerScreenState extends State<AddCustomerScreen> {
                             30), // Kenarları yuvarlatmak için
                       ),
                       padding: EdgeInsets.symmetric(
-                          vertical: 16, horizontal: 32), // Buton içi padding
+                          vertical: 16, horizontal: 32), 
                       elevation: 5, // Hafif gölge efekti
-                      minimumSize: Size(200, 50), // Buton boyutu
+                      minimumSize: Size(200, 50), 
                     ),
                     child: Text(
                       'Kaydet',
                       style: TextStyle(
-                        color: Colors.white, // Metin rengi
+                        color: Colors.white, 
                         fontSize: 16,
                         fontWeight: FontWeight.bold,
                       ),
