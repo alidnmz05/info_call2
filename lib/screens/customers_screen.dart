@@ -81,7 +81,7 @@ class _CustomersScreenState extends State<CustomersScreen> {
                       style: TextStyle(fontWeight: FontWeight.bold),
                     ),
                     onTap: () {
-                      // İleride müşteri detayına yönlendirme için kullanılabilir
+                      
                       ScaffoldMessenger.of(context).showSnackBar(
                         SnackBar(
                           content:
